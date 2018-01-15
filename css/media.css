@@ -1,0 +1,59 @@
+
+/* Breakopint tablet */
+@media (min-width: 768px) {
+  .navbar-nav {
+    position: absolute;
+    top: 50%;
+    right: 8.333333%;
+    transform: translateY(-50%);
+  }
+
+  .nav li a {
+    padding: 10px 30px;
+  }
+
+  .modal-md {
+    width: 450px;
+  }
+}
+
+/* Breakpoint desktop  */
+@media (min-width: 992px) {
+  .inline-logo {
+    width: 95px;
+    margin: 0 20px;
+  }
+
+  #section-2 {
+    padding-left: 0;
+  }
+
+  #section-2 article {
+    border-left: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #section-2 p {
+    font-size: 1.55em;
+  }
+
+  .map-container {
+    margin: 50px 0;
+  }
+
+  footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .nav-container {
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+
+  .nav-social, .nav-download {
+    margin: 0;
+  }
+}
